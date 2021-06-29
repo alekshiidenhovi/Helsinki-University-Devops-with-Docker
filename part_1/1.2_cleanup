@@ -1,0 +1,8 @@
+Script started on Tue Jun 29 19:52:31 2021
+[1m[7m%[27m[1m[0m                                                                                                                           ]2;alekshiidenhovi@Aleks-MacBook-Air:~/Docker/Helsinki-University-Devops-with-Docker/part_1]1;..Docker/part_1[0m[27m[24m[J(base) [01;32m➜  [36mpart_1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker ps -as [?1l>[?2004l
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[1m[7m%[27m[1m[0m                                                                                                                           ]2;alekshiidenhovi@Aleks-MacBook-Air:~/Docker/Helsinki-University-Devops-with-Docker/part_1]1;..Docker/part_1[0m[27m[24m[J(base) [01;32m➜  [36mpart_1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker images[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[1m[7m%[27m[1m[0m                                                                                                                           ]2;alekshiidenhovi@Aleks-MacBook-Air:~/Docker/Helsinki-University-Devops-with-Docker/part_1]1;..Docker/part_1[0m[27m[24m[J(base) [01;32m➜  [36mpart_1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+
+Script done on Tue Jun 29 19:53:00 2021
