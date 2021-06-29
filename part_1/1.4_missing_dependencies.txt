@@ -1,0 +1,15 @@
+Commands used:
+
+Zsh:
+docker run -d -it ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;
+docker container ls // --> to find the container name: naughty_sammet
+docker exec -it naughty_sammet bash
+
+Bash:
+apt-get update
+apt-get install curl
+exit
+
+Zsh:
+docker exec -it naughty_sammet curl helsinki.fi
+
