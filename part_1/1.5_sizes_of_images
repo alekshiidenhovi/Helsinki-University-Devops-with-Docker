@@ -1,0 +1,27 @@
+Zsh:
+docker pull devopsdockeruh/simple-web-service:ubuntu
+docker pull devopsdockeruh/simple-web-service:alpine
+
+docker images // to check the sizes
+ubuntu: 83MB
+alpine: 15.7MB
+
+docker run -d -it devopsdockeruh/simple-web-service:ubuntu
+docker run -d -it devopsdockeruh/simple-web-service:alpine
+docker container ls // ubuntu: trusting_stonebraker, alpine: festive_haslett
+
+docker exec -it trusting_stonebraker bash
+BASH: 
+tail -f ./text.log
+** Secret message is: 'You can find the source code here: https://github.com/docker-hy' **
+CTRL+P+Q
+
+Zsh:
+docker exec -it festive_haslett sh
+sh:
+tail -f ./text.log
+** Secret message is: 'You can find the source code here: https://github.com/docker-hy' **
+
+--> secret messages are the same
+
+
