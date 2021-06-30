@@ -1,0 +1,4 @@
+docker build . -t exercise:curler
+docker run -d -it exercise:curler   
+docker container ls // container name: loving_chatterjee
+docker exec -it loving_chatterjee curl helsinki.fi
