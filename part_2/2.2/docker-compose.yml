@@ -1,0 +1,11 @@
+version: '3.5' 
+
+services: 
+
+    simple-web-service: 
+      image: devopsdockeruh/simple-web-service
+      container_name: web-service
+      ports: 
+        - 8080:8080
+    #   command: docker run -d simple-web-service server
+      command: docker run -d simple-web-service curl helsinki.fi
