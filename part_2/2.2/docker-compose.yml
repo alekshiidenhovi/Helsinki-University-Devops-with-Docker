@@ -7,5 +7,4 @@ services:
       container_name: web-service
       ports: 
         - 8080:8080
-    #   command: docker run -d simple-web-service server
-      command: docker run -d simple-web-service curl helsinki.fi
+      command: docker run -d simple-web-service server
