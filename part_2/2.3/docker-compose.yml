@@ -15,3 +15,4 @@ services:
             - 8080:8080
 
 # Images "frontend" and "backend" had to be created first from the their respective Dockerfiles
+# Command: dc up
