@@ -12,10 +12,6 @@ services:
         image: backend
         container_name: back
         ports:
-<<<<<<< HEAD
             - 8080:8080
 
 # Images "frontend" and "backend" had to be created first from the their respective Dockerfiles
-=======
-            - 8080:8080
->>>>>>> 327e4f827b6dd4b0264ad6bb499e5a78a37d0954
