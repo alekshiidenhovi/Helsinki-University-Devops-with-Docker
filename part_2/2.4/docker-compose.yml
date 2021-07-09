@@ -1,0 +1,28 @@
+version: '3.5' 
+
+services: 
+
+    frontend:
+        image: frontend
+        container_name: front
+        ports:
+            - 5000:5000
+    
+    backend:
+        image: backend
+        container_name: back
+        environment:
+            - REDIS_HOST=red
+            - REDIS_PORT=6379
+        ports:
+            - 8080:8080
+            
+    redis:
+        image: redis
+        container_name: red
+        ports:
+            - 6379:6379
+
+
+# Images "frontend" and "backend" had to be created first from the their respective Dockerfiles
+# Command: dc up
