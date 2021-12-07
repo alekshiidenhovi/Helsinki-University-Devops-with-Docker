@@ -1,9 +1,4 @@
-Script started on Tue Jun 29 19:48:07 2021
-[1m[7m%[27m[1m[0m                                                                                                                           ]2;alekshiidenhovi@Aleks-MacBook-Air:~/Docker/Helsinki-University-Devops-with-Docker/part_1]1;..Docker/part_1[0m[27m[24m[J(base) [01;32m➜  [36mpart_1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hscript 1.1_Getting_started[26Ddocker ps -a              [14D[?1l>[?2004l
-]2;docker ps -a]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
 86723772ddba   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 43 seconds ago             sad_pare
 e08461182ce0   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    hungry_hawking
 63e7e17aff9a   nginx     "/docker-entrypoint.…"   2 minutes ago        Exited (0) 29 seconds ago             magical_saha
-[1m[7m%[27m[1m[0m                                                                                                                           ]2;alekshiidenhovi@Aleks-MacBook-Air:~/Docker/Helsinki-University-Devops-with-Docker/part_1]1;..Docker/part_1[0m[27m[24m[J(base) [01;32m➜  [36mpart_1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
-
-Script done on Tue Jun 29 19:48:13 2021

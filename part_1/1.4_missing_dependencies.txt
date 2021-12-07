@@ -8,8 +8,5 @@ docker exec -it naughty_sammet bash
 Bash:
 apt-get update
 apt-get install curl
-exit
-
-Zsh:
-docker exec -it naughty_sammet curl helsinki.fi
+curl helsinki.fi
 

@@ -16,4 +16,5 @@ RUN go build
 # Run "server"
 CMD ./server
 
+# This dockerfile was run in material-applications/example-backend folder
 # Command-line: docker build . -t backend-project && docker run -p 8080:8080 backend-project
