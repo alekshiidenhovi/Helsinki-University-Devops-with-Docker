@@ -1,18 +1,19 @@
-version: '3.5' 
+version: '3.5'
 
-services: 
+services:
 
-    frontend:
-        image: frontend
-        container_name: front
-        ports:
-            - 5000:5000
-    
-    backend:
-        image: backend
-        container_name: back
-        ports:
-            - 8080:8080
+  frontend:
+    image: frontend
+    container_name: front
+    ports: 
+      - 5000:5000
 
-# Images "frontend" and "backend" had to be created first from the their respective Dockerfiles
+  backend:
+    image: backend
+    container_name: back
+    ports: 
+      - 8080:8080
+
+# The images have to be first built from their respective Dockerfiles from part 1
+
 # Command: dc up

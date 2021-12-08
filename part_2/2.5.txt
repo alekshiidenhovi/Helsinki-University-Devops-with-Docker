@@ -1,0 +1,1 @@
+dc up --scale compute=3
