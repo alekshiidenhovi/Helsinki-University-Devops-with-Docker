@@ -42,6 +42,10 @@ volumes:
   nginx.conf:
   database:
 
+# I merged 2.8 and 2.9 solutions together into one docker-compose file. Then
+# I changed the ENV URLs in frontend and backend Dockerfiles. 
+# Frontend: ENV REACT_APP_BACKEND_URL=http://localhost/api
+# Backend: ENV REQUEST_ORIGIN=http://localhost
 
 # Images "frontend" and "backend" had to be created first from the their respective Dockerfiles
 # Command: dc up
