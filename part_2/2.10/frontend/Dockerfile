@@ -22,4 +22,4 @@ RUN npm install -g serve
 CMD ["serve", "-s", "-l", "5000", "build"]
 
 # This dockerfile was run in material-applications/example-frontend folder
-# Command-line: docker build . -t frontend-project && docker run -p 5000:5000 frontend-project
+# Command-line: docker build . -t frontend
