@@ -1,0 +1,11 @@
+Image sizes before changes: 
+frontend: 1.07GB
+backend: 1.17GB
+
+Only base images:
+node: 992MB
+golang: 941MB
+
+After changes: 
+frontend: 161MB
+backend: 447MB
